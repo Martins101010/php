@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: content-box;
+}
+#first-section{
+    width: 100%;
+    height: 400px;
+
+}
+#first-section img{
+    width: 100%;
+    height: 400px;
+}
+#cover-image{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.068);
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+#section-a{
+    width: 40%;
+    height: 400px;
+}
+
+#logo-box{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 50px 50px;
+}
+#section-b{
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    
+   
+}
+#section-b ul{
+    display: inline-flex;
+    list-style: none;
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#section-b ul li{
+    width: 140px;
+    margin:50px 5px;
+    padding: 10px;
+    transition: 1s ease-in-out;
+}
+#section-b ul li a{
+    text-decoration: none;
+    color:darkblue;
+}
+.active,#section-b ul li a:hover{
+    color: orange;
+    border: 0px solid orange;
+}
+
+
+#btn button{
+    width: 250px;
+    height: 70px;
+    background-color: darkgrey;
+    margin-top: -100px;
+    margin-left: 1000px;
+    position: absolute;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+#btn #btn-2:hover{
+    background-color: orange;
+    color: lightgray;
+}
+#btn #btn-2{
+    margin-left: 700px;
+    background-color: darkblue;
+    transition: 500ms ease-in-out;
+}
+#btn #btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+#second-section
+{
+    width: 70%;
+    height: 500px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+#side1{
+    width: 40%;
+    height: 450px;
+    border: 1px solid grey;
+    
+
+}
+#side2{
+    width: 60%;
+    height: 450px;
+    margin-left: 30px;
+    
+}
+#side2 button{
+    width: 100px;
+    height: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    
+}
+#side2 h1{
+    font-size: 40px;
+    margin-top: 30px;
+    color: darkblue;
+}
+#side2 h5{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 30px;
+    color: darkblue;
+}
+#side2 #btn-1{
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#third-section{
+    width: 70%;
+    height: 200px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-top: 30px;
+  
+}
+.base{
+    width: 30%;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    margin: 10px 20px;
+    border: 1px solid grey ;
+    
+}
+.base h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: orange;
+
+}
+.base span{
+    color: darkblue;
+}
+#fourth-section{
+    width: 70%;
+    height: 400px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-top: 30px;
+    
+
+}
+#case1{
+    width: 50%;
+    height: 400px;
+    margin-left: 30px;
+}
+#case1 button{
+    width: 120px;
+    height: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    
+}
+#case1 h1{
+    font-size: 50px;
+    margin-top: 20px;
+    color: darkblue;
+    font-weight: bolder;
+}
+#case1 h2{
+    margin-top: 20px;
+    color: darkblue;
+
+}
+#case1 h4{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: darkblue;
+}
+#case1 h5{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 0px;
+    color: darkblue;
+}
+#case1 a button{
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#case2{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#case2 h1{
+    font-size: 80px;
+    font-weight: bolder;
+    color: orange;
+}
+#case2 span{
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+}
+#box-a{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#box1a{
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgrey;
+}
+#box1b{
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+#box-b{
+    width: 50%;
+    height: 400px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#box2a{
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgrey;
+}
+#box2b{
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    
+}
+#fifth-section{
+    width: 70%;
+    height: 400px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-top: 30px;
+    
+}
+#point-1{
+    width: 50%;
+    height: 400px;
+    margin-left: 20px;
+}
+
+#point-1 button{
+    width: 100px;
+    height: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    
+    
+}
+#point-1 h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: darkblue;
+}
+#point-1 h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px;
+    color: darkblue;
+}
+#point-1 #btn-1{
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#point-2{
+    width: 50%;
+    height: 400px;
+    background-color: lightgrey;
+}

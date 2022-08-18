@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+#nav-button{
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    transition: 1s ease-in-out;
+    
+}
+#nav-button:hover{
+    background-color: orange;
+}
+#nav-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-weight: 800;
+}
+#nav-button span{
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+#text-space{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#text-space h1{
+    font-size: 20px;
+
+}
+#section{
+    width: 80%;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: white;
+
+}
+#first-section{
+    width: 50%;
+    height:700px;
+    background-color: rgb(231, 231, 231);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+
+}
+#second-section{
+    width: 50%;
+    height:700px;
+    background-color:darkblue;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+   
+    
+    
+}
+#first-section h1{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 35px;
+    color: darkblue;
+}
+#first-section .one{
+    width: 40%;
+    height: 35px;
+    margin-left: 35px;
+    margin-top: 20px;
+    outline: 1px solid lightgrey;
+    border: none;
+    
+    
+}
+#first-section .one:hover{
+    outline:1px solid orange;
+}
+#first-section #two{
+    width: 85%;
+    height:35px;
+    margin-left: 35px;
+    margin-top: 20px;
+    outline: 1px solid lightgrey;
+    border: none;
+}
+#first-section #two:hover{
+    outline:1px solid orange;
+}
+#first-section #three{
+    width: 85%;
+    height: 350px;
+    margin-left: 35px;
+    margin-top: 20px;
+    outline: 1px solid lightgrey;
+    border: none;
+
+}
+#first-section #three:hover{
+    outline:1px solid orange;
+}
+#first-section #four{
+    width: 120px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-weight: bolder;
+    background-color:  darkblue;
+    color: white;
+    border: none;
+    transition: 1s ease-in-out ;
+   
+}
+#first-section #four:hover{
+    background-color: orange;
+}
+#second-section #info-tab{
+    display: flex;
+    flex-direction: column;
+}
+#second-section #info-tab .circle{
+    width: 70px;
+    height: 70px;
+   background-color: rgba(233, 233, 233, 0.466);
+    border-radius: 50%;
+    margin: 20px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+#second-section #info-tab .circle:hover{
+    background-color: orange;
+}
+
+#second-section #info-tab .circle i{
+       color: white;
+}
+
+#second-section #info-tab{
+    width: 15%;
+    height: 600px;
+    margin-top: 50px;
+    
+}
+#second-section h1{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 35px;
+    color: white;
+    
+}
+
+#second-section #text-tab h2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 90px 50px;
+    color: white;
+}
+#second-section #text-tab span{
+    font-size: 17px;
+    font-weight: lighter;
+    color: orange;
+}
+#second-section #text-tab{
+    width: 85%;
+    height: 600px;
+  
+}
+
+
